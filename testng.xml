@@ -1,0 +1,26 @@
+<suite name="Amazon Test Suite">
+  <test name="Amazon Tests">
+    <classes>
+      <class name="testcases.TC_001_Test"/>
+      <class name="testcases.TC_002_Test"/>
+      <class name="testcases.TC_003_Test"/>
+      <class name="testcases.TC_004_Test"/>
+      <class name="testcases.TC_005_Test"/>
+      <class name="testcases.TC_006_Test"/>
+      <class name="testcases.TC_007_Test"/>
+      <class name="testcases.TC_008_Test"/>
+      <class name="testcases.TC_009_Test"/>
+      <class name="testcases.TC_010_Test"/>
+      <class name="testcases.TC_011_Test"/>
+      <class name="testcases.TC_012_Test"/>
+      <class name="testcases.TC_013_Test"/>
+      <class name="testcases.TC_014_Test"/>
+      <class name="testcases.TC_015_Test"/>
+      <class name="testcases.TC_016_Test"/>
+      <class name="testcases.TC_017_Test"/>
+      <class name="testcases.TC_018_Test"/>
+      <class name="testcases.TC_019_Test"/>
+      <class name="testcases.TC_020_Test"/>
+    </classes>
+  </test>
+</suite>
