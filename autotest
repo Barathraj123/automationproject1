@@ -1,0 +1,23 @@
+package Testing;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Auto {
+
+    public static void main(String[] args) {
+
+        // Make sure path points to chromedriver.exe file
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\raja\\eclipse-workspace\\Automation_Testing\\Driver\\chromedriver.exe");
+
+        WebDriver driver = new ChromeDriver();
+
+        driver.get("https://www.google.com");
+
+        System.out.println("Page Title: " + driver.getTitle());
+
+        driver.quit(); // always good to close the browser
+    }
+}
+
